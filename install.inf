@@ -1,0 +1,30 @@
+[info]
+title=Fountain Preview
+desc=Previews documents of Fountain lexer in the browser
+type=cudatext-plugin
+subdir=cuda_fountain_preview
+lexers=Fountain
+homepage=https://github.com/medvosa/cuda_fountain_preview
+[item1]
+section=events
+events=on_change_slow
+lexers=Fountain
+[item2]
+lexers=Fountain
+section=commands
+caption=Fountain\Expand abbreviation
+method=expand_abbrev
+hotkey=Ctrl+,
+[item3]
+lexers=Fountain
+section=commands
+caption=Fountain\Expand all
+method=expand_all
+[item4]
+section=commands
+caption=Fountain\Stop server
+method=stop_server
+[item5]
+section=commands
+caption=Fountain\Start server
+method=start_server
